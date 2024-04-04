@@ -1,0 +1,17 @@
+.custom-form {
+	width: 60%;
+	margin: auto;
+  }
+  .form-label {
+	color: #f14616; /* Change the color to your desired color */
+  }
+  
+  /* Input box focus color */
+  .form-control:focus {
+	border-color: #050404; /* Change the color to your desired color */
+	box-shadow: none; /* Change the color to your desired color */
+  }
+  .form-control {
+	color: #090606; /* Set the initial color of the input boxes */
+  }
+  

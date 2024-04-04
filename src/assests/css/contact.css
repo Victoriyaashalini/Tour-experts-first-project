@@ -1,0 +1,70 @@
+.full-height {
+	height: 250px;
+	background-image: url('../images/luke-chesser-tgrBcf7S_dY-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 20px;
+  margin-top: 40px;
+  }
+  
+  .container-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .text-center {
+	text-align: center;
+  }
+  .text-center h1{
+	color: rgb(252, 241, 241);
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 3rem;
+  }
+  .traveler-connect{
+    margin-top: 50px;
+    margin-left:10rem;
+    color:rgb(61, 58, 58);
+    font-style: italic;
+    font-weight: bold;
+  }
+  .title{
+    color: rgb(20, 9, 2);
+  }
+  .cardss{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+  }
+  .items{
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 10px 13px 14px 11px rgba(185,194,202,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 10px 13px 14px 11px rgba(185,194,202,0);
+  }
+ .card-link{
+  text-decoration: none;
+  font-size: 17px;
+  color: rgb(212, 69, 13);
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+ }
+ .mainbranch{
+  margin-left: 10rem;
+  margin-top: 10rem;
+ }
+.contact-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url('../images/3771157_76827.jpg');
+  background-size: contain;
+  background-position: center;
+  width: 1900px;
+  height: 600px;
+}

@@ -1,0 +1,70 @@
+.about-container img{
+	height: 700px;
+}
+.about-text{
+	color: rgb(78, 77, 77);
+	text-align: justify;
+	font-size: 18px;
+	
+}
+.mission{
+	
+	margin-left: 40px;
+}
+.mission h2{
+	
+	color: #042C62;
+	font-family: "Roboto Slab", serif;
+	font-weight: bold;
+}
+	.mision-image{
+		width: 80%;
+		height: 80%;
+	}
+	.mision-text{
+		text-align: justify;
+		font-size: 19px;
+		color: rgb(108, 108, 108);
+		font-weight: 400;
+		font-family: "Playfair Display", serif;
+	}
+.vision-image{
+	width: 90%;
+		height: 60%;
+		object-fit: cover;
+		
+		
+}
+.vision-text{
+	text-align: justify;
+	margin-top: 30px;
+	font-size: 19px;
+	color: rgb(108, 108, 108);
+	font-family: "Playfair Display", serif;	font-weight: 400;
+		
+}
+.welcome-about h1{
+	margin-top: 40px;
+}
+.mission-container{
+	margin-top: 10rem;
+}
+.vision-text h2{
+	color: #042C62;
+	font-family: "Roboto Slab", serif;
+	font-weight: bold;
+}
+.history{
+	color:#042C62;
+	margin-top: 40px;
+	font-family: "Roboto Slab", serif;
+	font-weight: bold;
+}
+.page-about-text{
+	font-family: "Playfair Display", serif;
+ 
+  font-size: 19px;
+	color: rgb(108, 108, 108);
+		font-weight: 400;
+ 
+}

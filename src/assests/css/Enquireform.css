@@ -1,0 +1,20 @@
+/* Enquireform.css */
+.form-container {
+	width: 100%;
+  }
+  
+  .form-container > div {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+  }
+  
+  .form-container input,
+  .form-container select {
+	width: 100%;
+  }
+  
+  .form-container button {
+	width: 100%;
+  }
+  

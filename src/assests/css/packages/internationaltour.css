@@ -1,0 +1,31 @@
+.international-image{
+	object-fit: cover; /* Ensure the image covers the entire container while maintaining aspect ratio */
+    width: 100%; /* Ensure the image takes up the full width of the container */
+    height: 500px;
+    opacity: 0.8;
+}
+.international-heading {
+    font-size: calc(3rem + 1vw);
+    color: linear-gradient(to right, #c31432, #240b36);
+    font-weight: bold; /* Initial font size */
+  }
+@media (max-width: 576px) {
+    .international-image {
+      height: 200px; 
+      font-size: calc(0.8rem + 0.5vw);/* Adjust as needed */
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 768px) {
+    .international-image {
+      height: 300px;
+      font-size: calc(0.9rem + 0.7vw);  /* Adjust as needed */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .international-image {
+      height: 400px;
+      font-size: calc(1rem + 1vw); /* Adjust as needed */
+    }
+  }

@@ -31,8 +31,8 @@ const CustomNavbar = () => {
         <Container>
           <Navbar.Brand as={NavLink} to="/"><img src={logo} alt="" className='img-logo' /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+          <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+            <Nav>
               <Nav.Link as={NavLink} to="/" className="nav-link">Home</Nav.Link>
               <Nav.Link as={NavLink} to="/about" className="nav-link">About</Nav.Link>
               <NavDropdown
@@ -100,6 +100,7 @@ const CustomNavbar = () => {
             </Nav>
           </Navbar.Collapse>
         </Container>
+        {/* Offcanvas */}
         <Navbar.Offcanvas
           show={showOffcanvas}
           onHide={() => setShowOffcanvas(false)}
@@ -109,20 +110,20 @@ const CustomNavbar = () => {
             <Offcanvas.Title>Menu</Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-            <Nav className="justify-content-end flex-grow-1 pe-3">
-              <Nav.Link as={NavLink} to="/" onClick={() => setShowOffcanvas(false)}>Home</Nav.Link>
-              <Nav.Link as={NavLink} to="/about" onClick={() => setShowOffcanvas(false)}>About</Nav.Link>
-              {/* Add your other nav links here */}
-            </Nav>
-            <Form className="d-flex">
-              <Form.Control
-                type="search"
-                placeholder="Search"
-                className="me-2"
-                aria-label="Search"
-              />
-              <Button variant="outline-success">Search</Button>
-            </Form>
+            <Container>
+              <Nav className="justify-content-end flex-grow-1 pe-3">
+                {/* Offcanvas NavLinks */}
+              </Nav>
+              <Form className="d-flex">
+                <Form.Control
+                  type="search"
+                  placeholder="Search"
+                  className="me-2"
+                  aria-label="Search"
+                />
+                <Button variant="outline-success">Search</Button>
+              </Form>
+            </Container>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
       </Navbar>

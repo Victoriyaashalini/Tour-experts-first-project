@@ -1,6 +1,5 @@
 
 import './App.css';
-import Navbar from './Components/layout/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Components/layout/Home';
 import About from './Components/layout/About';
@@ -19,6 +18,7 @@ import CustompackageForm from './Components/forms/CustompackageForm';
 import Footer from './Components/layout/Footer';
 import Indiatour from './Components/cards/Indiatour';
 import Internationaltour from './Components/cards/Internationaltour';
+import BasicExample from './Components/layout/Navbar';
 
 
 
@@ -29,14 +29,14 @@ import Internationaltour from './Components/cards/Internationaltour';
 function App() {
   return (
    <Router>
-    <Navbar/>
+    <BasicExample/>
  
    
  <Routes>
         
           <Route exact path='/' element={<Home/>}/>
           <Route path="/about" element={<About/>} />
-          <Route path="/Destination" element={<Destination/>}/>
+          
           <Route path="/Package" element={<Package/>}/>
           <Route path="/popular" element={<Popular/>}/>
           <Route path="/customize" element={<Customize/>}/>
